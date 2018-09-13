@@ -231,7 +231,7 @@ cache:
   - $(APPVEYOR_BUILD_FOLDER)\.git\modules\third_party
   - $(APPVEYOR_BUILD_FOLDER)\third_party
   # Cache file mtimes in the main git repo, also to enable incremental builds.
-  - $(MTIME_CACHE_DB)
+  # - $(MTIME_CACHE_DB)
   # Build incrementally.
   - $(DENO_BUILD_PATH)
 
